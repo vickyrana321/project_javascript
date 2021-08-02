@@ -1,0 +1,118 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.navs {
+  color: red;
+  background-color: rgb(59, 59, 117);
+  text-align: center;
+  height: 200px;
+}
+
+h2 {
+  color: white;
+}
+
+#messege {
+  color: white;
+}
+
+nav h1 {
+  margin: auto;
+
+  font-size: 40px;
+}
+#coldis {
+  font-size: 80px;
+}
+
+.blog {
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+button {
+  border: none;
+  outline: none;
+  font-weight: 800;
+  font-size: initial;
+}
+button:hover {
+  color: blue;
+  background: brown;
+}
+
+.blog #butn {
+  width: 33%;
+  height: 100%;
+  background-color: pink;
+}
+
+.blog #butn1 {
+  width: 33%;
+  height: 100%;
+  background-color: pink;
+}
+
+.blog #butn2 {
+  width: 33%;
+  height: 100%;
+  background-color: rgb(36, 167, 36);
+}
+
+#container {
+  max-width: 600px;
+  margin: 3% auto;
+}
+
+.d1 {
+  background-color: sienna;
+  width: 30%;
+  padding: 90px;
+  float: left;
+  margin: 1.6%;
+  border-radius: 40%;
+  transition: background 0.6s;
+}
+@media only screen and (max-width: 797px) {
+  .blog {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+  }
+  .blog #butn {
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+  }
+
+  .blog #butn1 {
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+  }
+
+  .blog #butn2 {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(36, 167, 36);
+  }
+  #container {
+    max-width: 600px;
+    margin: 15% auto;
+  }
+  nav h1 {
+    margin: auto;
+
+    font-size: 40px;
+  }
+  #coldis {
+    font-size: 60px;
+  }
+}
